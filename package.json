@@ -1,15 +1,13 @@
 {
-  "name": "DuelMe",
+  "name": "Duelme",
+  "description": "yeet",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "discord.js": "^11.4.2"
+    "discord.js": "11.1.0",
+    "request": "2.81.0"
   }
 }
