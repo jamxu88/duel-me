@@ -8,7 +8,7 @@ client.on("message", (message) => {
   if (!message.content.startsWith(prefix)) return;
   if (!message.content.startsWith(prefix) || message.author.bot) return;
   if (message.content.startsWith(prefix + "help")) {
-    message.channel.send("Just say `=duel` to start dueling. To make the bot make a move, say `=use`. You can change the level pokemon the bot is using with `=max` and `lvl1`");
+    message.channel.send("Just say `=duel` to start dueling. To make the bot make a move, say `=use`. You can change the level pokemon the bot is using with `=max` and `=lvl1`");
   } else
   if (message.content.startsWith(prefix + "duel")) {
   	  message.channel.send("-duel " + message.author.toString() + "" );
