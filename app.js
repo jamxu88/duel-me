@@ -15,6 +15,12 @@ client.on("message", (message) => {
   }else
   if (message.content.startsWith(prefix + "use")) {
   	  message.channel.send("-use 1");
+  }else
+  if (message.content.startsWith(prefix + "lvl1")) {
+  	  message.channel.send("-select 2");
+  }else
+  if (message.content.startsWith(prefix + "max")) {
+      message.channel.send("-select 3");
   }
 });
 client.login(process.env.BOT_TOKEN);
